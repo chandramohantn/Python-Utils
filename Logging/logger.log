@@ -1,0 +1,11 @@
+2022-11-06 00:50:02,375 - INFO - The value of x is 10
+2022-11-06 00:50:02,375 - ERROR - Cannot divide by zero (by error)
+Traceback (most recent call last):
+  File "logger.py", line 19, in <module>
+    a = 10 / 0
+ZeroDivisionError: division by zero
+2022-11-06 00:50:02,375 - ERROR - Cannot divide by zero (by exception)
+Traceback (most recent call last):
+  File "logger.py", line 24, in <module>
+    a = 10 / 0
+ZeroDivisionError: division by zero

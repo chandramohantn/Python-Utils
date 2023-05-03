@@ -1,0 +1,2 @@
+Method add returned value: 5
+Method subtract returned value: -1

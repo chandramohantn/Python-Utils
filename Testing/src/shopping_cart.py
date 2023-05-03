@@ -26,3 +26,12 @@ class ShoppingCart:
             total += self.price_map[item]
         return total
 
+
+if __name__ == "__main__":
+    cart = ShoppingCart(10)
+    for _ in range(10):
+        cart.add_item("apple")
+    print(cart.get_size())
+    print(cart.get_items())
+    print(cart.get_total())
+
